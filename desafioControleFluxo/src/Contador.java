@@ -13,6 +13,8 @@ public class Contador {
             } catch (ParametrosInvalidosexception e) {
                 System.out.println("Erro: " + e.getMessage());
             }
+
+            scan.close();
     }
 
     public static void imprimirNumeros(int inicio, int fim) throws ParametrosInvalidosexception {
